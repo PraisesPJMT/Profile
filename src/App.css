@@ -1,1 +1,11 @@
 /* App Styles */
+
+h1 {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
+main {
+  padding: 64px 16px 0 16px;
+}

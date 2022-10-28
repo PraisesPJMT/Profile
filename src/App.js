@@ -1,9 +1,18 @@
 import React from 'react';
 import './App.css';
+import Profile from './components/Profile';
+import Links from './components/Links';
+import Social from './components/Social';
 
 function App() {
   return (
-    <h1>Zuri Profile</h1>
+    <>
+      <main>
+        <Profile />
+        <Links />
+        <Social />
+      </main>
+    </>
   );
 }
 
