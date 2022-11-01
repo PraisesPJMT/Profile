@@ -1,0 +1,32 @@
+footer {
+  display: none;
+  padding: 34px 8%;
+  margin-top: auto;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 100%;
+  padding-top: 32px;
+}
+
+.zuri-logo {
+  width: 188px;
+}
+
+.hng-9 {
+  text-align: center;
+  color: #667085;
+}
+
+.i4g-logo {
+  width: 132.13px;
+}
+
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+  }
+}
