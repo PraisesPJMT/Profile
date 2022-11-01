@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faEllipsis,
+  faEllipsis, faShare,
 } from '@fortawesome/free-solid-svg-icons';
 import ProfilePicture from '../assets/Profile Picture.jpeg';
 import Camera from '../assets/camera.svg';
@@ -16,10 +16,14 @@ const Profile = () => (
         <img className="camera-icon" src={Camera} alt="Camera" />
       </div>
     </div>
-    <button type="button" className="btn-more">
+    <button type="button" aria-label="Share" className="btn-more" data-tooltip="Share Link">
       <FontAwesomeIcon
-        className="dots"
+        className="avatar dots"
         icon={faEllipsis}
+      />
+      <FontAwesomeIcon
+        className="avatar share"
+        icon={faShare}
       />
     </button>
   </section>

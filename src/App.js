@@ -3,6 +3,7 @@ import './App.css';
 import Profile from './components/Profile';
 import Links from './components/Links';
 import Social from './components/Social';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Links />
         <Social />
       </main>
+      <Footer />
     </>
   );
 }
