@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.58d5fe6f.css",
+    "main.js": "/static/js/main.6addc617.js",
+    "static/media/Profile Picture.jpeg": "/static/media/Profile Picture.5898a9379e3519b9c3c8.jpeg",
+    "static/media/slack.png": "/static/media/slack.55ad9eabc7f642f5e5a5.png",
+    "static/media/github.png": "/static/media/github.f11021803f68852df283.png",
+    "static/media/camera.svg": "/static/media/camera.6317244a5381be929492c969c7c62821.svg",
+    "index.html": "/index.html",
+    "main.58d5fe6f.css.map": "/static/css/main.58d5fe6f.css.map",
+    "main.6addc617.js.map": "/static/js/main.6addc617.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58d5fe6f.css",
+    "static/js/main.6addc617.js"
+  ]
+}
